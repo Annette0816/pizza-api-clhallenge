@@ -1,8 +1,8 @@
-from .config import db
-from .app import create_app
-from .models.restaurant import Restaurant
-from .models.pizza import Pizza
-from .models.restaurant_pizza import RestaurantPizza
+from config import db
+from app import create_app
+from models.restaurant import Restaurant
+from models.pizza import Pizza
+from models.restaurant_pizza import RestaurantPizza
 
 app = create_app()
 
