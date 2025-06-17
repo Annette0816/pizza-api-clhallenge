@@ -1,4 +1,4 @@
-from ..config import db
+from config import db
 from sqlalchemy.orm import relationship
 
 class Restaurant(db.Model):
